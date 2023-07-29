@@ -1,0 +1,398 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.logo{
+	padding:20px;
+	margin:7px;
+}
+.navbar{
+  display: flex;
+  align-items:center;
+  padding: 20px;
+}
+ nav{
+   flex: 1;
+   text-align: right;
+ }
+ nav ul{
+   display: inline-block
+   list-style-type : none;
+ }
+ nav ul li{
+   display: inline-block;
+   margin-left:20px;
+ }
+ a{
+   text-decoration:none;
+   color:black;
+ }
+ p{
+   color: black;
+
+ }
+ .container {
+  max-width:1300px;
+  margin: auto;
+  padding-left:25px;
+  padding-right:25px;
+ }
+ .row{
+   display: flex;
+   align-items:100%;
+   flex-wrap:wrap;
+   justify-content: space-around;
+ }
+ .col-2{
+   flex-basis:50%;
+   min-width:300px;
+ }
+ .col-2 img{
+   max-width:80%;
+   padding: 50px 0;
+ }
+ .col-2 h1{
+   font-size:50px;
+   line-height: 60px;
+   margin: 25px;
+}
+.btn{
+  display: inline-block;
+  background: #ff80bf;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius:30px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #563434;
+}
+.header{
+  background: rgb(255,250,250);
+}
+.header .row{
+  margin-top:70px;
+}
+.categories{
+  margin: 70px 0;
+}
+.col-3{
+  flex-basis:3-%;
+  min-width: 250px;
+  margin-bottom:30px;
+}
+.col-3 img{
+  width:70%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left:25px;
+  padding-right:25px;
+}
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom:50px;
+  transition: transform 0.5s;
+}
+.col-4 img{
+  width:70%;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height:60px;
+  color: black;
+  font-weight: bold;
+}
+.title::after{
+  content: '';
+  background: pink;
+  width: 80px;
+  height: 6px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h4{
+  font-size: 14px;
+    line-height: 1.3;
+    font-family: "Avenir Next Regular","Times New Roman",serif;
+    color: #333;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.col-4 p{
+  font-size: 15px;
+    line-height: 1.3;
+    font-family: "Avenir Next Regular","Times New Roman",serif;
+    color: #333;
+    font-weight: 300;
+}
+.button {
+  color: #333;
+    transition: all .6s;
+    background: #fce4de;
+    border: 1px solid #fce4de;
+    margin: 0;
+    line-height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 20px;
+}
+.button:hover{
+  background: rgb(219,112,147);
+}
+.rating .fa{
+color:  #ed3275;
+}
+.col-4:hover{
+  transform: translateY(-7px);
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+.slidershow{
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+.middle{
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover{
+  background: #ff91af;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 80%;
+  height: 130%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+.offer{
+    background: rgb(255,250,250);
+    margin-top:80px;
+    padding: 30 px 0;
+}
+.col-2 .offer-img{
+  padding: 50px;
+}
+small{
+  color: #333;
+  font: normal 20px/22px TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+    letter-spacing: 0px;
+}
+
+.testimonial{
+  padding: 100px;
+}
+.testimonial .col-4{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow:0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.testimonial .col-4 img{
+width:50px;
+margin-top: 20px;
+border-radius: 50%;
+}
+.testimonial .col-4:hover{
+  transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+  font-size:34px;
+  color:pink;
+}
+.col-3 p{
+  font-size:12px;
+  margin: 12px 0;
+  color:#777;
+}
+.brands{
+  margin :100px auto;
+}
+.col-5{
+  width:160px;
+}
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(0);
+}
+.footer{
+  background: rgb(255, 250, 250);
+  color:#333;
+  font-size: 15px;
+  padding: 60px 0 20px;
+}
+.footer p{
+  color: #333;
+}
+.footer h3{
+  color: black;
+  margin-bottom:20px;
+}
+.footer-col-1, .footer-col-2 ,.footer-col-3,.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis:30%;
+}
+.footer-col-2{
+  flex:1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  height : 130px;
+  margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+  list-style-type:none;
+}
+.app-logo{
+  margin-top:20px;
+}
+.app-logo  img{
+  width: 200px;
+}
+.footer hr{
+  border :none;
+  background: #b5b5b5;
+  height :1px;
+  margin: 20px 0;
+}
+.copyright{
+text-align:center;
+}
+.menu-icon{
+  margin-left: 20px;
+  display:inline-block;
+  display: none;
+}
+/*media query for menu*/
+@media only screen and (max-width : 1200px){
+  nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #ff80bf;
+    width: 100%;
+    overflow: hidden;
+    transition: maxHeight 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul li a{
+    color:white;
+  }
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+  }
+}
+.row-2{
+  justify-content:space-between;
+  margin: 100px aut0 50px;
+}
+select{
+  border: 1px solid #ff4da6;
+  padding: 5px;
+}
+select:focus{
+  outline: none;
+}
+.page-btn{
+  margin: 0 auto 80px;
+}
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #ff4da6 ;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.page-btn span:hover{
+  background: pink;
+  color:white;
+}

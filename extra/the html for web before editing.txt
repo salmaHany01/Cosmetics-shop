@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PAMPER AND BEAUTY | store</title>
+  <link rel="stylesheet" href="webstyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="pic1.png" alt="logo" width="125px">
+      </div>
+      <nav>
+        <ul>
+          <li> <a href="#">HOME</a> </li>
+          <li> <a href="#">PRODUCTS</a> </li>
+          <li> <a href="#">ABOUT</a> </li>
+          <li> <a href="#">CONTACT</a> </li>
+          <li> <a href="#">ACCOUNT </a> </li>
+        </ul>
+      </nav>
+      <img src="pic3.png" width="30px"height="30px">
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <h1> Affordable.<br> Gorgeous and Beauty which you deserve. </h1>
+        <p>Brands & Products You Want & Love! With A Range Of Delivery Options.<br>
+           Gift Cards Available. Register Online.
+           Highlights: Gift Cards Available, Online Shopping Option Available, We Offer A Wide Range Of Products.</p>
+           <a href="#" class="btn">Explore Your Beauty &#8594;</a>
+      </div>
+      <div class="col-2">
+        <img src="pic2.jpg" >
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="categories">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img src="pic4.jpg">
+      </div>
+      <div class="col-3">
+        <img src="pic5.jpg">
+      </div>
+      <div class="col-3">
+        <img src="pic6.jpg">
+      </div>
+      <div class="col-3">
+        <img src="pic7.jpg">
+      </div>
+      <div class="col-3">
+        <img src="pic8.jpg">
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="small-container">
+    <h2 class="title">Trending Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="pic9.jpg" >
+        <h4>Glossier Lipgloss</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p> 500EGP</p>
+        <a href="#" class="button">Add To Cart;</a>
+      </div>
+      <div class="col-4">
+        <img src="pic10.jpg" >
+        <h4>3CE Cute Rosy Blush</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <p> 450EGP</p>
+        <a href="#" class="button">Add To Cart</a>
+        </div>
+      <div class="col-4">
+        <img src="pic11.jpg" >
+        <h4> Niacinamide 10% + Zinc 1%</h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p> 370EGP</p>
+        <a href="#" class="button">Add To Cart</a>
+      </div>
+      <div class="col-4">
+        <img src="pic12.jpg" >
+        <h4> The Ordinary Peeling Solution 30ml AHA 30% + BHA 2% </h4>
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <p> 465EGP</p>
+         <a href="#" class="button">Add To Cart;</a>
+      </div>
+    </div>
+    <h2 class="title">Products Under 500EGP </h2>
+    <div class="row">
+    <div class="col-4">
+      <img src="pic16.jpg" >
+      <h4>Laura Mercier Tinted Moisturiser SPF 30</h4>
+      <div class="rating">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p> 499EGP</p>
+      <a href="#" class="button">Add To Cart</a>
+    </div>
+    <div class="col-4">
+      <img src="pic13.jpg" >
+      <h4>Florence Red Velvet Blush</h4>
+      <div class="rating">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+      </div>
+      <p> 300EGP</p>
+      <a href="#" class="button">Add To Cart</a>
+      </div>
+    <div class="col-4">
+      <img src="pic14.jpg" >
+      <h4> Milk Pigmented Bronzer</h4>
+      <div class="rating">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      </div>
+      <p> 350EGP</p>
+      <a href="#" class="button">Add To Cart</a>
+    </div>
+    <div class="col-4">
+      <img src="pic15.jpg" >
+      <h4> Milk Volumizing Mascara </h4>
+      <div class="rating">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      </div>
+      <p> 435EGP</p>
+       <a href="#" class="button">Add To Cart</a>
+    </div>
+  </div>
+  <div class="row">
+  <div class="col-4">
+    <img src="pic17.jpg" >
+    <h4>Rose Gold Elixir</h4>
+    <div class="rating">
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <p> 766EGP</p>
+    <a href="#" class="button">Add To Cart</a>
+  </div>
+  <div class="col-4">
+    <img src="pic18.jpg" >
+    <h4>Drunk Elephant Virgin Marula Luxury Facial Oil</h4>
+    <div class="rating">
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <p> 1500EGP</p>
+    <a href="#" class="button">Add To Cart</a>
+    </div>
+  <div class="col-4">
+    <img src="pic19.jpg" >
+    <h4> Nude Pink Lip Liner Pencil |Charlotte Tilbury</h4>
+    <div class="rating">
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      <i class="fa fa-star-half" aria-hidden="true"></i>
+
+    </div>
+    <p> 870EGP</p>
+    <a href="#" class="button">Add To Cart</a>
+  </div>
+  <div class="col-4">
+    <img src="pic20.jpg" >
+    <h4> Caudalie Beauty Elixir Mini </h4>
+    <div class="rating">
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star-half" aria-hidden="true"></i>
+      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    </div>
+    <p> 800EGP</p>
+     <a href="#" class="button">Add To Cart</a>
+  </div>
+</div>
+  </div>
+  <div class="offer">
+    
+  </div>
+  <script type="text/javascript" src="jsweb.js"></script>
+</body>
+
+
+</html
+
+

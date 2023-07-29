@@ -1,0 +1,83 @@
+#intro {
+  height: 630px;
+  text-align: center;
+  margin: auto;
+}
+#intro .outer {
+  margin: 0px;
+  padding: 210px 10px;
+  background: url('topImage2.jpg') no-repeat center;
+}
+#intro h1{
+  font-size: 100px;
+}
+#intro h5{
+  font-size: 30px;
+}
+#intro p{
+  font-size: 20px;
+}
+#purpose{
+  background-color: #ffe4e1;
+  margin: 0px;
+  padding: 100px 50px ;
+
+}
+#purpose h2{
+  font-size: 24px;
+  text-align: center;
+}
+#purpose p{
+  font-size: 20px;
+}
+#purpose .outer{
+  background: url('pic75.jpg')  no-repeat left top/50% auto;
+  padding: 190px 0px 100px;
+  margin: 0px;
+  float: left;
+
+}
+#purpose .innertext{
+  padding-left: 500px;
+  margin: 50px 30px 50px 750px;
+  padding: 30px;
+}
+#aim{
+  background-color: white;
+  margin: 400px 0px 250px;
+  padding: 250px 50px;
+}
+#aim h2{
+  font-size: 24px;
+  text-align: center;
+}
+#aim p{
+  font-size: 20px;
+}
+#aim .outer{
+  background: url('pic76.jpg') no-repeat right top/50% auto;
+  float: right;
+  margin: 0px;
+  padding: 190px 0px 100px;
+}
+#aim .innertext {
+  padding-right: 500px;
+  margin: 80px 350px 50px 30px;
+}
+#CEOs {
+  background-color: #FFFAFA;
+  margin: 50px 0px 0px;
+  padding: 250px 50px 10px;
+  text-align: center;
+}
+#CEOs h2{
+  font-size: 26px;
+  font-style: bold;
+  text-align: center;
+}
+#CEOs p{
+  font-size: 24px;
+}
+.inner{
+  background-color: #ffe4e1;
+}
